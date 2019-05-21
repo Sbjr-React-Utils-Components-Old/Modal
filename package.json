@@ -1,0 +1,58 @@
+{
+  "name": "@sbjr-react-utils-components/modal",
+  "version": "1.0.0",
+  "description": "React Modal Component.",
+  "main": "./dist/bundle.js",
+  "unpkg": "./dist/bundle.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --mode=production",
+    "build-doc": "esdoc",
+    "lint": "eslint ./src",
+    "publish-package": "rm -rf ./dist ./node_modules && npm i && npm run build && npm publish --access=public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Utils",
+    "Component",
+    "Modal",
+    "Javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sbjr-React-Utils-Components/Modal.git"
+  },
+  "author": "Sbibou-Jr <sbibou.jr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sbjr-React-Utils-Components/Modal/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/Sbjr-React-Utils-Components/Modal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "dependencies": {
+    "@sbjr-react-utils-components/icons": "^1.0.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6"
+  }
+}
