@@ -21,6 +21,10 @@ module.exports = {
       },
     ],
   },
+  externals: {
+    react: 'React',
+    '@sbjr-react-utils-components/icons': 'Icons',
+  },
   output: {
     libraryTarget: 'commonjs2',
     path: path.resolve(__dirname, 'dist'),
