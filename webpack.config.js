@@ -22,8 +22,8 @@ module.exports = {
     ],
   },
   externals: {
-    react: 'React',
-    '@sbjr-react-utils-components/icons': 'Icons',
+    react: 'commonjs react',
+    '@sbjr-react-utils-components/icons': 'commonjs @sbjr-react-utils-components/icons',
   },
   output: {
     libraryTarget: 'commonjs2',
