@@ -1,6 +1,6 @@
 {
   "name": "@sbjr-react-utils-components/modal",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React Modal Component.",
   "main": "./dist/bundle.js",
   "unpkg": "./dist/bundle.js",

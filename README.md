@@ -1,17 +1,25 @@
 # Sbjr-React-Utils-Components - Modal
 
+![React image](https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png)
+
 **React Modal Component.**
 
 ## Install
 
-**CDN :**
+This module is a React component, so you must obviously have [react](https://github.com/facebook/react) installed.
+
+This module depends on another module, [@sbjr-react-utils-components/icons](https://github.com/Sbjr-React-Utils-Components/Icons), you must also install it.
+
+
+### CDN
 ```js
+<script type="text/javascript" src="https://unpkg.com/@sbjr-react-utils-components/icons@latest"></script>
 <script type="text/javascript" src="https://unpkg.com/@sbjr-react-utils-components/modal@latest"></script>
 ```
 
-**npm :**
+### Npm
 ```bash
-npm i -S @sbjr-react-utils-components/modal
+npm i -S @sbjr-react-utils-components/modal @sbjr-react-utils-components/icons
 ```
 
 ## Doc
