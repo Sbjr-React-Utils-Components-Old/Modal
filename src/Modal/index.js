@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Icon from '@sbjr-react-utils-components/icons';
+import Icon, { CLASS_ICON } from '@sbjr-react-utils-components/icons';
 
 import './style.less';
 
@@ -27,6 +27,7 @@ const Modal = ({
         <h2 className="modal-title">{title}</h2>
         <Icon
           className="close-icon"
+          classIcon={CLASS_ICON.TIMES}
           onClick={() => onClose()}
         />
       </div>
