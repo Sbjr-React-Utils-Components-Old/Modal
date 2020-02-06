@@ -21,17 +21,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sbjr-React-Utils-Components/Modal.git"
+    "url": "git+https://github.com/Sbjr-React-Utils-Components-Old/Modal.git"
   },
   "author": "Sbibou-Jr <sbibou.jr@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sbjr-React-Utils-Components/Modal/issues"
+    "url": "https://github.com/Sbjr-React-Utils-Components-Old/Modal/issues"
   },
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/Sbjr-React-Utils-Components/Modal#readme",
+  "homepage": "https://github.com/Sbjr-React-Utils-Components-Old/Modal#readme",
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
