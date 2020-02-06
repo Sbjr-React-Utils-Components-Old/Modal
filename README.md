@@ -1,4 +1,6 @@
-# Sbjr-React-Utils-Components - Modal
+# Sbjr-React-Utils-Components-Old - Modal
+
+**Legacy !** [See the new version](https://github.com/SbibouJr/Sbjr-React-Utils-Components/tree/master/packages/modal)
 
 ![React image](https://upload.wikimedia.org/wikipedia/commons/1/18/React_Native_Logo.png)
 
@@ -8,7 +10,7 @@
 
 This module is a React component, so you must obviously have [react](https://github.com/facebook/react) installed.
 
-This module depends on another module, [@sbjr-react-utils-components/icons](https://github.com/Sbjr-React-Utils-Components/Icons), you must also install it.
+This module depends on another module, [@sbjr-react-utils-components/icons](https://github.com/SbibouJr/Sbjr-React-Utils-Components/tree/master/packages/icons), you must also install it.
 
 
 ### CDN
